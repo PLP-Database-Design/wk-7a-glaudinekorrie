@@ -18,7 +18,7 @@ VALUES
 Question 2 Achieving 2NF (Second Normal Form):
 
 Step 1: Create Orders table (stores OrderID and CustomerName)
-sql
+
 CREATE TABLE Orders (
   OrderID INT PRIMARY KEY,
   CustomerName VARCHAR(100)
@@ -32,7 +32,7 @@ VALUES
 
 
 Step 2: Create OrderDetails table (stores product and quantity per order)
-sql
+
 CREATE TABLE OrderDetails (
   OrderID INT,
   Product VARCHAR(50),
